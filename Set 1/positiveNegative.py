@@ -7,7 +7,7 @@ def checkNumber(number):
         return "Positive"
 
 def main():
-    number  = input("\nEnter any number to check if it is positive/negative/zero: ")
+    number  = int(input("\nEnter any number to check if it is positive/negative/zero: "))
     result = checkNumber(number)
     print("\nThe number is {}\n".format(result))
 
